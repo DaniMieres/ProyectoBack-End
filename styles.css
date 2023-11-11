@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13% 13% 53%;
+}
+.banner {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+nav {
+    width: 100;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.option1 {
+    width: 80%;
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start {
+    width: 15%;
+    height: 100%;
+    outline: 2px solid white;
+    display: grid;
+    place-items: center;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.410VjLbSxkRbjZ1YrAurywHaHa&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opciones2 {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opciones_3 {
+    width: 15%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: BLUE;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.csvf5TBjaKAw3Ty9pqyNewHaEK&pid=Api&P=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+main>button {
+    width: fit-content;
+    height: fit-content;
+    margin-inline: auto;
+    background-color: BLUE;
+    color: black;
+    border: none;
+    padding: 2%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main>h1 {
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.menu {
+    font-size: x-large;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.contact {
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.box_alert {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid green;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.footer1 {
+    color: yellow;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social1 {
+    color: yellow;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social2 {
+    color: yellow;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social3 {
+    color: yellow;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    outline: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social1>button {
+    color: aqua;
+    width: 30px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.containerButtons {
+    display: flex;
+}
+.containerButtons div button {
+    border: 1px solid red;
+    height: 4rem;
+    width: 4rem;
+}
+.containerButtons div button:hover {
+    border: 1px solid red;
+    background: violet;
+    height: 4rem;
+    width: 4rem;
+}
+
+.opciones2 p {
+    /* establecer propiedades por defecto */
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.opciones2 p:hover {
+    /* agregar efecto de escala en el hover */
+    transform: scale(1.3);
+}
+.form{
+    background-color: blue;
+
+}
